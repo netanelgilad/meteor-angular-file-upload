@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Flow.js html5 file upload extension on angular.js framework"
+  summary: "Angular File Upload is a module for the AngularJS framework"
 });
 
 function packageExists(pkgname) {
