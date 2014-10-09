@@ -1,26 +1,16 @@
 Package.describe({
-  summary: "Angular File Upload is a module for the AngularJS framework"
+  summary: "Angular File Upload is a module for the AngularJS framework",
+  version: "0.0.2",
+  git: "https://github.com/netanelgilad/meteor-angular-file-upload.git"
 });
 
-function packageExists(pkgname) {
-  var fs = Npm.require('fs');
-  var path = Npm.require('path');
-  var pkgpath = path.join('packages', pkgname);
-  return fs.existsSync(pkgpath);
-}
-
 Package.on_use(function (api) {
-  api.use('bower', 'client');
-
-  if (packageExists('angularite')) {
-    api.use('angularite', 'client');
-  } else if (packageExists('ngMeteor')) {
-    api.use('ngMeteor', 'client');
-  }
+  api.use('mquandalle:bower@0.1.11', 'client');
+  api.use('urigo:angular@0.4.2', 'client');
 
   // Install bower components.
-  api.add_files('smart.json', 'client');
+  api.addFiles('smart.json', 'client');
 
   // Client files.
-  api.add_files('init.js', 'client');
+  api.addFiles('init.js', 'client');
 });
