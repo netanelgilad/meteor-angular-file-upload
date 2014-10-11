@@ -1,6 +1,6 @@
 Meteor.startup(function() {
-    if (typeof(ngMeteor) !== 'undefined') {
-        ngMeteor.requires.push('angularFileUpload');
+    if (typeof(angularMeteor) !== 'undefined') {
+        angularMeteor.requires.push('angularFileUpload');
     }
 });
 
