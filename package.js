@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Angular File Upload is a module for the AngularJS framework",
-  version: "0.0.2",
+  version: "0.0.3",
   git: "https://github.com/netanelgilad/meteor-angular-file-upload.git"
 });
 

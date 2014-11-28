@@ -14,10 +14,10 @@
     ],
     [
       "urigo:angular",
-      "0.4.2"
+      "0.5.7"
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.33",
+  "toolVersion": "meteor-tool@1.0.35",
   "format": "1.0"
 }
