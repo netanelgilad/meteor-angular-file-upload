@@ -1,0 +1,23 @@
+{
+  "dependencies": [
+    [
+      "meteor",
+      "1.1.1"
+    ],
+    [
+      "mquandalle:bower",
+      "0.1.11"
+    ],
+    [
+      "underscore",
+      "1.0.0"
+    ],
+    [
+      "urigo:angular",
+      "0.4.2"
+    ]
+  ],
+  "pluginDependencies": [],
+  "toolVersion": "meteor-tool@1.0.33",
+  "format": "1.0"
+}

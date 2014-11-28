@@ -6,7 +6,7 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('mquandalle:bower@0.1.11', 'client');
-  api.use('urigo:angular@0.4.2', 'client');
+  api.use('urigo:angular@0.5.7', 'client');
 
   // Install bower components.
   api.addFiles('smart.json', 'client');
