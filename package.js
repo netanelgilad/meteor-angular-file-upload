@@ -1,19 +1,16 @@
 Package.describe({
   summary: "Angular File Upload is a module for the AngularJS framework",
-  version: "0.0.5",
+  version: "1.1.5",
   name: 'netanelgilad:angular-file-upload',
   git: "https://github.com/netanelgilad/meteor-angular-file-upload.git"
 });
 
 Package.onUse(function (api) {
   api.versionsFrom('0.9.0');
-  api.use('urigo:angular@0.7.2', 'client');
+  api.use('angular:angular@1.2.11', 'client');
 
   // Load angular-file-upload lib.
-  api.addFiles('lib/bower_components/angular-file-upload/angular-file-upload.min.js', 'client');
-
-  // Support for old versions of angular-meteor
-  api.addFiles('init.js', 'client');
+  api.addFiles('angular-file-upload.js', 'client');
 });
 
 Package.onTest(function (api) {
